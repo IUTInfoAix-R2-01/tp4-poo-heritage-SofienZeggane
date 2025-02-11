@@ -1,6 +1,6 @@
 package YAIP6;
 
-public class Rectangle {
+public class Rectangle implements GeometricObject{
 	
 	private double width;
 	private double lenght;
