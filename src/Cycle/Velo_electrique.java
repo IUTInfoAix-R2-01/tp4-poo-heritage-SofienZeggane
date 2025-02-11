@@ -40,5 +40,10 @@ public class Velo_electrique extends Velo {
 		return FrequenceCoupsDePedale;
 	}
 	
+	public static void main(String[] args) {
+		Velo_electrique v2 = new Velo_electrique(12.0, 5.0, 8.0);
+		System.out.println(v2.getFacteurPuissanceMoteur());
+		System.out.println(v2.toString());
+	}
 	
 }

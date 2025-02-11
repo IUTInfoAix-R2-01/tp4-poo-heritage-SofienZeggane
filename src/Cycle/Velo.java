@@ -63,4 +63,9 @@ public class Velo {
 		return FrequenceCoupsDePedale;
 	}
 	
+	public static void main(String[] args) {
+		Velo v1 = new Velo();
+		System.out.println(v1.getBraquet());
+		System.out.println(v1.toString());
+	}
 }
