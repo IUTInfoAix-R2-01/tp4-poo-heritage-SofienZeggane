@@ -3,13 +3,17 @@ package Cycle;
 import java.util.Random;
 
 public class Velo {
-	private static final double DEFAUT_BRAQUET = 13.0;
+	private static double DEFAUT_BRAQUET = 13.0;
 	private double braquet;
 	private double diamRoue;
 	private Random genAlea;
 
-	public double getBRAQUET() {
+	public double getDEFAUT_BRAQUET() {
 		return DEFAUT_BRAQUET;
+	}
+	
+	public static void setDEFAUT_BRAQUET(double dEFAUT_BRAQUET) {
+		DEFAUT_BRAQUET = dEFAUT_BRAQUET;
 	}
 	
 	public Velo (double braquet, double diamRoue) {
