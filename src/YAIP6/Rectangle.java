@@ -14,4 +14,12 @@ public class Rectangle {
 		return "Rectangle [width=" + width + ", lenght=" + lenght + "]";
 	}
 	
+	public double getArea() {
+		return lenght * width;
+	}
+	
+	public double getPerimeter() {
+		return (lenght + width) * 2;
+	}
+	
 }

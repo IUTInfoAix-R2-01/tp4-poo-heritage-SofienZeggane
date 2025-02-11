@@ -43,4 +43,13 @@ public class Cylinder {
 		return "Cylinder [base=" + base + ", height=" + height + "]";
 	}
 	
+	public static void main(String[] args) {
+		
+		Cylinder p1 = new Cylinder(4.5, "jaune", 5.2);
+		Cylinder p2 = new Cylinder(6.2, "bleu", 5.5);
+		System.out.println(p1);
+		System.out.println(p2);
+	}
+	
+	
 }
