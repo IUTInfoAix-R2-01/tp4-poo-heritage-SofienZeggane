@@ -26,4 +26,12 @@ public class Person {
 		return "Person [name=" + name + ", address=" + address + "]";
 	}
 	
+	public static void main(String[] args) {
+		
+		Person p1 = new Person("Amroune", "1 rue de Aix");
+		Person p2 = new Person("Zeggane", "800 rue de Aix");
+		System.out.println(p1);
+		System.out.println(p2);
+	}
+	
 }
